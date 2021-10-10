@@ -80,7 +80,7 @@ namespace Uppgift1Primtal
             int numb = Convert.ToInt32(Console.ReadLine());
 
             bool isPrime = true;
-            if (numb > 1) // if the number is > = 2 the loop will go
+            if (numb > 1) // if the number is > = 2 the loop will go...
             {
                 for (int i = 2; i <= (int)Math.Sqrt(numb); i++)
                 {
