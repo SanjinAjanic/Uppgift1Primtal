@@ -121,7 +121,8 @@ namespace Uppgift1Primtal
         {
             var highest = list.Count > 0 ? list.Max() : 1;
 
-            for (int i = highest + 1; i <= highest * 2; i++)
+            // it will allways be a prime number between highest and highest * 2
+            for (int i = highest + 1; i <= highest * 2; i++) 
             {
                 bool isPrime = true;
                 if (i > 1)
